@@ -1,1 +1,1 @@
-Introduction to Java Online
+<title>Introduction to Java Online</title>
