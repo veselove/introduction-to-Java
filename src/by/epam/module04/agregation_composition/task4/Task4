@@ -1,0 +1,60 @@
+package by.epam.module04.agregation_composition.task4;
+
+public class Task4 {
+
+	public static void main(String[] args) {
+
+		Customer customer001 = new Customer("Romanov", "Vladimir", "Petrovich");
+
+		BankAccount N12340000043879 = new BankAccount("N12340000043879", "USD", 30000.0, false);
+		customer001.addAccount(N12340000043879);
+
+		BankAccount N12340000035261 = new BankAccount("N12340000035261", "USD", 7800.0, false);
+		customer001.addAccount(N12340000035261);
+
+		BankAccount N12340000040812 = new BankAccount("N12340000040812", "USD", -3400.0, true);
+		customer001.addAccount(N12340000040812);
+
+		BankAccount N12340000049086 = new BankAccount("N12340000049086", "USD", 0.0, true);
+		customer001.addAccount(N12340000049086);
+
+		BankAccount N12340000044208 = new BankAccount("N12340000044208", "USD", 18500, false);
+		customer001.addAccount(N12340000044208);
+
+		System.out.println("printing the initial list of invoicess:");
+
+		AccountLogic.viewAllAccounts(customer001.getCustomerAccounts());
+
+		System.out.println("\nSearching by account number: (N12340000049086)");
+
+		AccountLogic.searchAccountByNumber(customer001.getCustomerAccounts(), "N12340000049086");
+
+		System.out.println("\nSorting accounts by account numbers");
+
+		AccountLogic.sortingAccountsByNumbers(customer001.getCustomerAccounts());
+
+		System.out.println("Printing sorted accounts:");
+
+		AccountLogic.viewAllAccounts(customer001.getCustomerAccounts());
+
+		System.out.println("\nCalculating the total amount of accounts (positive and negarive balances separately):");
+
+		AccountLogic.calcTheTotalAmountPos(customer001.getCustomerAccounts());
+
+		AccountLogic.calcTheTotalAmountNeg(customer001.getCustomerAccounts());
+		
+		System.out.println("\nAccount blocking:");
+		
+		AccountLogic.blockAccount(N12340000043879);
+		
+		AccountLogic.viewAccountInfo(N12340000043879);
+		
+		System.out.println("\nAccount unblocking:");
+		
+		AccountLogic.unblockAccount(N12340000043879);
+		
+		AccountLogic.viewAccountInfo(N12340000043879);
+		
+	}
+
+}
