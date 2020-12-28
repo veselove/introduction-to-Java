@@ -1,8 +1,5 @@
 # Introduction to Java Online
 
-https://training.by/#!/Training/2397
-
-
 Самостоятельное обучение
 
 Программа тренинга включает в себя следующие темы:
