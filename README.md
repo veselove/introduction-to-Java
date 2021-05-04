@@ -11,4 +11,4 @@
 * Основы ООП
 
 
-<img src="blob/main/src/by/epam/tasks/Module%201-1.png">
+<img src="src/by/epam/tasks/Module%201-1.png">
