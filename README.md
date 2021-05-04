@@ -12,3 +12,7 @@
 
 
 <img src="src/by/epam/tasks/Module%201-1.png">
+<img src="src/by/epam/tasks/Module%201-2.png">
+<img src="src/by/epam/tasks/Module%202-1.png">
+<img src="src/by/epam/tasks/Module%202-2.png">
+<img src="src/by/epam/tasks/Module%203-1.png">
