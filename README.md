@@ -16,3 +16,10 @@
 <img src="src/by/epam/tasks/Module%202-1.png">
 <img src="src/by/epam/tasks/Module%202-2.png">
 <img src="src/by/epam/tasks/Module%203-1.png">
+<img src="src/by/epam/tasks/Module%204-1.png">
+<img src="src/by/epam/tasks/Module%204-2.png">
+<img src="src/by/epam/tasks/Module%205-1.png">
+<img src="src/by/epam/tasks/Module%206-1.png">
+<img src="src/by/epam/tasks/Module%206-2.png">
+<img src="src/by/epam/tasks/Module%206-3.png">
+<img src="src/by/epam/tasks/Module%206-4.png">
